@@ -63,15 +63,6 @@ h4 {
     display: inline-block;
 }
 
-.middle-vertical {
-    position: relative;
-    transform: translateY(50%);
-}
-
-.middle-vertical-i {
-    transform: translateY(50%);
-}
-
 .row-table {
     display: table;
 }
@@ -373,6 +364,18 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------Media Queries */
+@media(min-width: 540px) {
+
+    /* ----------------------------------------About me  */
+    .middle-vertical {
+        position: relative;
+        transform: translateY(50%);
+    }
+
+    .middle-vertical-i {
+        transform: translateY(50%);
+    }
+}
 
 @media(min-width: 992px) {
     .center-form {
